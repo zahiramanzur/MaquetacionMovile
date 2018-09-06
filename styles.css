@@ -1,0 +1,65 @@
+body{
+    background-image: url("Persona-usando-laptop-celular-y-tarjeta-.jpg");
+}
+
+.heading{
+    text-align: center;
+    padding-top: 8%;
+    font-weight: 900;
+    padding-block-end: 6%;
+}
+.heading span{
+    color:#ad2525;
+}
+.background-image{
+    position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	background:url('Persona-usando-laptop-celular-y-tarjeta-.jpg');
+	background-size:cover;
+	z-index:1;
+	-webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);	
+}
+.content{
+    position:relative;
+	z-index:1;
+	color:#3b3838;
+}
+.btn-option{
+    background: #83808054;
+    border-radius: 0%;     
+    border-color: #fcfcfc;
+    align-content: center;
+    text-align: justify;
+     
+}
+.btn-option .text{
+    font-size: 30px;
+    font-weight: 500;
+    color: #fdfdfd;
+    text-align: center;
+}
+.btn .arrow{
+    width: 6%;
+    float: right;
+    margin-right: 35%;
+    margin-top: -3.5%;
+}
+.btn .icon{
+    width: 5%;
+    margin-left: 35%;
+}
+.user img{
+    max-width: 100%;
+    height: auto;
+    padding-top: 10%;
+}.content > .btn-option {
+    margin: 0px;
+    padding: 6px;  
+}
